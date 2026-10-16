@@ -1,0 +1,22 @@
+# Unreal: generado / regenerable
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+Build/
+.vs/
+*.sln
+*.suo
+*.VC.db
+*.opensdf
+*.sdf
+*.xcodeproj
+*.code-workspace
+
+# Contenido por usuario de Unreal
+Content/Developers/
+Content/Collections/
+
+# SO
+Thumbs.db
+.DS_Store
