@@ -29,8 +29,6 @@ La tripulación aterriza en un planeta con una nave destartalada. Hay que extrae
 2. Clonar el repo (usa Git LFS para los assets binarios) y abrir `Venus001.uproject`.
 3. El mapa inicial es `L_Menu` (`Content/Venus/Levels/Menu`). Los niveles jugables son `L_Level01` y `L_Level02`, y la nave está en `Content/Venus/Levels/Ship/L_Ship`.
 
-No hace falta compilar nada: el proyecto no tiene código C++ y no depende de plugins externos.
-
 ## Estructura
 
 Todo el contenido está en `Content/Venus/`: `Core` (GameMode, GameState, PlayerController, GameInstance, SaveGame), `Player`, `Weapons`, `Interactables`, `Enemies` (IA con Behavior Tree), `UI`, `VFX` (Niagara), `Audio`, `Data`, `Materials`, `Meshes` y `Levels`.
